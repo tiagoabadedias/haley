@@ -20,6 +20,7 @@ import { Entidade } from "../../models/Entidade";
 import { Atleta } from "../../models/Atleta";
 import { Pessoa } from "../../models/Pessoa";
 import { Onda } from "../../models/Onda";
+import { OndaNota } from "../../models/OndaNota";
 
 export class FaseController {
   // tslint:disable-next-line:no-empty
@@ -77,6 +78,9 @@ export class FaseController {
           },
           {
           model: Onda,
+          include:[{
+            model: OndaNota
+          }]
           }],
         }],
       }],
