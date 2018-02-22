@@ -1,0 +1,602 @@
+[
+  {
+    "Id": 1,
+    "Nome": "Alta Floresta D'Oeste",
+    "EstadoId": "RO",
+    "CodigoIBGE": "1100015"
+  },
+  {
+    "Id": 2,
+    "Nome": "Ariquemes",
+    "EstadoId": "RO",
+    "CodigoIBGE": "1100023"
+  },
+  {
+    "Id": 3,
+    "Nome": "Cabixi",
+    "EstadoId": "RO",
+    "CodigoIBGE": "1100031"
+  },
+  {
+    "Id": 4,
+    "Nome": "Cacoal",
+    "EstadoId": "RO",
+    "CodigoIBGE": "1100049"
+  },
+  {
+    "Id": 5,
+    "Nome": "Cerejeiras",
+    "EstadoId": "RO",
+    "CodigoIBGE": "1100056"
+  },
+  {
+    "Id": 6,
+    "Nome": "Colorado do Oeste",
+    "EstadoId": "RO",
+    "CodigoIBGE": "1100064"
+  },
+  {
+    "Id": 7,
+    "Nome": "Corumbiara",
+    "EstadoId": "RO",
+    "CodigoIBGE": "1100072"
+  },
+  {
+    "Id": 8,
+    "Nome": "Costa Marques",
+    "EstadoId": "RO",
+    "CodigoIBGE": "1100080"
+  },
+  {
+    "Id": 9,
+    "Nome": "Espigão D'Oeste",
+    "EstadoId": "RO",
+    "CodigoIBGE": "1100098"
+  },
+  {
+    "Id": 10,
+    "Nome": "Guajará-Mirim",
+    "EstadoId": "RO",
+    "CodigoIBGE": "1100106"
+  },
+  {
+    "Id": 11,
+    "Nome": "Jaru",
+    "EstadoId": "RO",
+    "CodigoIBGE": "1100114"
+  },
+  {
+    "Id": 12,
+    "Nome": "Ji-Paraná",
+    "EstadoId": "RO",
+    "CodigoIBGE": "1100122"
+  },
+  {
+    "Id": 13,
+    "Nome": "Machadinho D'Oeste",
+    "EstadoId": "RO",
+    "CodigoIBGE": "1100130"
+  },
+  {
+    "Id": 14,
+    "Nome": "Nova Brasilândia D'Oeste",
+    "EstadoId": "RO",
+    "CodigoIBGE": "1100148"
+  },
+  {
+    "Id": 15,
+    "Nome": "Ouro Preto do Oeste",
+    "EstadoId": "RO",
+    "CodigoIBGE": "1100155"
+  },
+  {
+    "Id": 16,
+    "Nome": "Pimenta Bueno",
+    "EstadoId": "RO",
+    "CodigoIBGE": "1100189"
+  },
+  {
+    "Id": 17,
+    "Nome": "Porto Velho",
+    "EstadoId": "RO",
+    "CodigoIBGE": "1100205"
+  },
+  {
+    "Id": 18,
+    "Nome": "Presidente Médici",
+    "EstadoId": "RO",
+    "CodigoIBGE": "1100254"
+  },
+  {
+    "Id": 19,
+    "Nome": "Rio Crespo",
+    "EstadoId": "RO",
+    "CodigoIBGE": "1100262"
+  },
+  {
+    "Id": 20,
+    "Nome": "Rolim de Moura",
+    "EstadoId": "RO",
+    "CodigoIBGE": "1100288"
+  },
+  {
+    "Id": 21,
+    "Nome": "Santa Luzia D'Oeste",
+    "EstadoId": "RO",
+    "CodigoIBGE": "1100296"
+  },
+  {
+    "Id": 22,
+    "Nome": "Vilhena",
+    "EstadoId": "RO",
+    "CodigoIBGE": "1100304"
+  },
+  {
+    "Id": 23,
+    "Nome": "São Miguel do Guaporé",
+    "EstadoId": "RO",
+    "CodigoIBGE": "1100320"
+  },
+  {
+    "Id": 24,
+    "Nome": "Nova Mamoré",
+    "EstadoId": "RO",
+    "CodigoIBGE": "1100338"
+  },
+  {
+    "Id": 25,
+    "Nome": "Alvorada D'Oeste",
+    "EstadoId": "RO",
+    "CodigoIBGE": "1100346"
+  },
+  {
+    "Id": 26,
+    "Nome": "Alto Alegre dos Parecis",
+    "EstadoId": "RO",
+    "CodigoIBGE": "1100379"
+  },
+  {
+    "Id": 27,
+    "Nome": "Alto Paraíso",
+    "EstadoId": "RO",
+    "CodigoIBGE": "1100403"
+  },
+  {
+    "Id": 28,
+    "Nome": "Buritis",
+    "EstadoId": "RO",
+    "CodigoIBGE": "1100452"
+  },
+  {
+    "Id": 29,
+    "Nome": "Novo Horizonte do Oeste",
+    "EstadoId": "RO",
+    "CodigoIBGE": "1100502"
+  },
+  {
+    "Id": 30,
+    "Nome": "Cacaulândia",
+    "EstadoId": "RO",
+    "CodigoIBGE": "1100601"
+  },
+  {
+    "Id": 31,
+    "Nome": "Campo Novo de Rondônia",
+    "EstadoId": "RO",
+    "CodigoIBGE": "1100700"
+  },
+  {
+    "Id": 32,
+    "Nome": "Candeias do Jamari",
+    "EstadoId": "RO",
+    "CodigoIBGE": "1100809"
+  },
+  {
+    "Id": 33,
+    "Nome": "Castanheiras",
+    "EstadoId": "RO",
+    "CodigoIBGE": "1100908"
+  },
+  {
+    "Id": 34,
+    "Nome": "Chupinguaia",
+    "EstadoId": "RO",
+    "CodigoIBGE": "1100924"
+  },
+  {
+    "Id": 35,
+    "Nome": "Cujubim",
+    "EstadoId": "RO",
+    "CodigoIBGE": "1100940"
+  },
+  {
+    "Id": 36,
+    "Nome": "Governador Jorge Teixeira",
+    "EstadoId": "RO",
+    "CodigoIBGE": "1101005"
+  },
+  {
+    "Id": 37,
+    "Nome": "Itapuã do Oeste",
+    "EstadoId": "RO",
+    "CodigoIBGE": "1101104"
+  },
+  {
+    "Id": 38,
+    "Nome": "Ministro Andreazza",
+    "EstadoId": "RO",
+    "CodigoIBGE": "1101203"
+  },
+  {
+    "Id": 39,
+    "Nome": "Mirante da Serra",
+    "EstadoId": "RO",
+    "CodigoIBGE": "1101302"
+  },
+  {
+    "Id": 40,
+    "Nome": "Monte Negro",
+    "EstadoId": "RO",
+    "CodigoIBGE": "1101401"
+  },
+  {
+    "Id": 41,
+    "Nome": "Nova União",
+    "EstadoId": "RO",
+    "CodigoIBGE": "1101435"
+  },
+  {
+    "Id": 42,
+    "Nome": "Parecis",
+    "EstadoId": "RO",
+    "CodigoIBGE": "1101450"
+  },
+  {
+    "Id": 43,
+    "Nome": "Pimenteiras do Oeste",
+    "EstadoId": "RO",
+    "CodigoIBGE": "1101468"
+  },
+  {
+    "Id": 44,
+    "Nome": "Primavera de Rondônia",
+    "EstadoId": "RO",
+    "CodigoIBGE": "1101476"
+  },
+  {
+    "Id": 45,
+    "Nome": "São Felipe D'Oeste",
+    "EstadoId": "RO",
+    "CodigoIBGE": "1101484"
+  },
+  {
+    "Id": 46,
+    "Nome": "São Francisco do Guaporé",
+    "EstadoId": "RO",
+    "CodigoIBGE": "1101492"
+  },
+  {
+    "Id": 47,
+    "Nome": "Seringueiras",
+    "EstadoId": "RO",
+    "CodigoIBGE": "1101500"
+  },
+  {
+    "Id": 48,
+    "Nome": "Teixeirópolis",
+    "EstadoId": "RO",
+    "CodigoIBGE": "1101559"
+  },
+  {
+    "Id": 49,
+    "Nome": "Theobroma",
+    "EstadoId": "RO",
+    "CodigoIBGE": "1101609"
+  },
+  {
+    "Id": 50,
+    "Nome": "Urupá",
+    "EstadoId": "RO",
+    "CodigoIBGE": "1101708"
+  },
+  {
+    "Id": 51,
+    "Nome": "Vale do Anari",
+    "EstadoId": "RO",
+    "CodigoIBGE": "1101757"
+  },
+  {
+    "Id": 52,
+    "Nome": "Vale do Paraíso",
+    "EstadoId": "RO",
+    "CodigoIBGE": "1101807"
+  },
+  {
+    "Id": 53,
+    "Nome": "Acrelândia",
+    "EstadoId": "AC",
+    "CodigoIBGE": "1200013"
+  },
+  {
+    "Id": 54,
+    "Nome": "Assis Brasil",
+    "EstadoId": "AC",
+    "CodigoIBGE": "1200054"
+  },
+  {
+    "Id": 55,
+    "Nome": "Brasiléia",
+    "EstadoId": "AC",
+    "CodigoIBGE": "1200104"
+  },
+  {
+    "Id": 56,
+    "Nome": "Bujari",
+    "EstadoId": "AC",
+    "CodigoIBGE": "1200138"
+  },
+  {
+    "Id": 57,
+    "Nome": "Capixaba",
+    "EstadoId": "AC",
+    "CodigoIBGE": "1200179"
+  },
+  {
+    "Id": 58,
+    "Nome": "Cruzeiro do Sul",
+    "EstadoId": "AC",
+    "CodigoIBGE": "1200203"
+  },
+  {
+    "Id": 59,
+    "Nome": "Epitaciolândia",
+    "EstadoId": "AC",
+    "CodigoIBGE": "1200252"
+  },
+  {
+    "Id": 60,
+    "Nome": "Feijó",
+    "EstadoId": "AC",
+    "CodigoIBGE": "1200302"
+  },
+  {
+    "Id": 61,
+    "Nome": "Jordão",
+    "EstadoId": "AC",
+    "CodigoIBGE": "1200328"
+  },
+  {
+    "Id": 62,
+    "Nome": "Mâncio Lima",
+    "EstadoId": "AC",
+    "CodigoIBGE": "1200336"
+  },
+  {
+    "Id": 63,
+    "Nome": "Manoel Urbano",
+    "EstadoId": "AC",
+    "CodigoIBGE": "1200344"
+  },
+  {
+    "Id": 64,
+    "Nome": "Marechal Thaumaturgo",
+    "EstadoId": "AC",
+    "CodigoIBGE": "1200351"
+  },
+  {
+    "Id": 65,
+    "Nome": "Plácido de Castro",
+    "EstadoId": "AC",
+    "CodigoIBGE": "1200385"
+  },
+  {
+    "Id": 66,
+    "Nome": "Porto Walter",
+    "EstadoId": "AC",
+    "CodigoIBGE": "1200393"
+  },
+  {
+    "Id": 67,
+    "Nome": "Rio Branco",
+    "EstadoId": "AC",
+    "CodigoIBGE": "1200401"
+  },
+  {
+    "Id": 68,
+    "Nome": "Rodrigues Alves",
+    "EstadoId": "AC",
+    "CodigoIBGE": "1200427"
+  },
+  {
+    "Id": 69,
+    "Nome": "Santa Rosa do Purus",
+    "EstadoId": "AC",
+    "CodigoIBGE": "1200435"
+  },
+  {
+    "Id": 70,
+    "Nome": "Senador Guiomard",
+    "EstadoId": "AC",
+    "CodigoIBGE": "1200450"
+  },
+  {
+    "Id": 71,
+    "Nome": "Sena Madureira",
+    "EstadoId": "AC",
+    "CodigoIBGE": "1200500"
+  },
+  {
+    "Id": 72,
+    "Nome": "Tarauacá",
+    "EstadoId": "AC",
+    "CodigoIBGE": "1200609"
+  },
+  {
+    "Id": 73,
+    "Nome": "Xapuri",
+    "EstadoId": "AC",
+    "CodigoIBGE": "1200708"
+  },
+  {
+    "Id": 74,
+    "Nome": "Porto Acre",
+    "EstadoId": "AC",
+    "CodigoIBGE": "1200807"
+  },
+  {
+    "Id": 75,
+    "Nome": "Alvarães",
+    "EstadoId": "AM",
+    "CodigoIBGE": "1300029"
+  },
+  {
+    "Id": 76,
+    "Nome": "Amaturá",
+    "EstadoId": "AM",
+    "CodigoIBGE": "1300060"
+  },
+  {
+    "Id": 77,
+    "Nome": "Anamã",
+    "EstadoId": "AM",
+    "CodigoIBGE": "1300086"
+  },
+  {
+    "Id": 78,
+    "Nome": "Anori",
+    "EstadoId": "AM",
+    "CodigoIBGE": "1300102"
+  },
+  {
+    "Id": 79,
+    "Nome": "Apuí",
+    "EstadoId": "AM",
+    "CodigoIBGE": "1300144"
+  },
+  {
+    "Id": 80,
+    "Nome": "Atalaia do Norte",
+    "EstadoId": "AM",
+    "CodigoIBGE": "1300201"
+  },
+  {
+    "Id": 81,
+    "Nome": "Autazes",
+    "EstadoId": "AM",
+    "CodigoIBGE": "1300300"
+  },
+  {
+    "Id": 82,
+    "Nome": "Barcelos",
+    "EstadoId": "AM",
+    "CodigoIBGE": "1300409"
+  },
+  {
+    "Id": 83,
+    "Nome": "Barreirinha",
+    "EstadoId": "AM",
+    "CodigoIBGE": "1300508"
+  },
+  {
+    "Id": 84,
+    "Nome": "Benjamin Constant",
+    "EstadoId": "AM",
+    "CodigoIBGE": "1300607"
+  },
+  {
+    "Id": 85,
+    "Nome": "Beruri",
+    "EstadoId": "AM",
+    "CodigoIBGE": "1300631"
+  },
+  {
+    "Id": 86,
+    "Nome": "Boa Vista do Ramos",
+    "EstadoId": "AM",
+    "CodigoIBGE": "1300680"
+  },
+  {
+    "Id": 87,
+    "Nome": "Boca do Acre",
+    "EstadoId": "AM",
+    "CodigoIBGE": "1300706"
+  },
+  {
+    "Id": 88,
+    "Nome": "Borba",
+    "EstadoId": "AM",
+    "CodigoIBGE": "1300805"
+  },
+  {
+    "Id": 89,
+    "Nome": "Caapiranga",
+    "EstadoId": "AM",
+    "CodigoIBGE": "1300839"
+  },
+  {
+    "Id": 90,
+    "Nome": "Canutama",
+    "EstadoId": "AM",
+    "CodigoIBGE": "1300904"
+  },
+  {
+    "Id": 91,
+    "Nome": "Carauari",
+    "EstadoId": "AM",
+    "CodigoIBGE": "1301001"
+  },
+  {
+    "Id": 92,
+    "Nome": "Careiro",
+    "EstadoId": "AM",
+    "CodigoIBGE": "1301100"
+  },
+  {
+    "Id": 93,
+    "Nome": "Careiro da Várzea",
+    "EstadoId": "AM",
+    "CodigoIBGE": "1301159"
+  },
+  {
+    "Id": 94,
+    "Nome": "Coari",
+    "EstadoId": "AM",
+    "CodigoIBGE": "1301209"
+  },
+  {
+    "Id": 95,
+    "Nome": "Codajás",
+    "EstadoId": "AM",
+    "CodigoIBGE": "1301308"
+  },
+  {
+    "Id": 96,
+    "Nome": "Eirunepé",
+    "EstadoId": "AM",
+    "CodigoIBGE": "1301407"
+  },
+  {
+    "Id": 97,
+    "Nome": "Envira",
+    "EstadoId": "AM",
+    "CodigoIBGE": "1301506"
+  },
+  {
+    "Id": 98,
+    "Nome": "Fonte Boa",
+    "EstadoId": "AM",
+    "CodigoIBGE": "1301605"
+  },
+  {
+    "Id": 99,
+    "Nome": "Guajará",
+    "EstadoId": "AM",
+    "CodigoIBGE": "1301654"
+  },
+  {
+    "Id": 100,
+    "Nome": "Humaitá",
+    "EstadoId": "AM",
+    "CodigoIBGE": "1301704"
+  }
+]
