@@ -52,6 +52,6 @@ export class EtapaCategoria extends Model<EtapaCategoria> {
   public etapa: Etapa;
 
   @HasMany(() => Fase)
-  public fase: Fase[];
+  public fases: Fase[];
 
 }

@@ -33,7 +33,7 @@ export class AutenticarController {
     } else {
       Usuario.findOne<Usuario>({
         include: [{
-            attributes: ["nome"],
+            attributes: ["id","nome"],
             model: Perfil,
           },
           {
