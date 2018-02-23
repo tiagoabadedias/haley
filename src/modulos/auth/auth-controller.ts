@@ -55,9 +55,10 @@ export class AutenticarController {
           console.log(usuarioRetornado);
           response.json({
             data: {
+              UsuarioId: usuarioRetornado.id,
               nome: usuarioRetornado.pessoa.nome,
               perfil: usuarioRetornado.perfil ? usuarioRetornado.perfil.nome : "",
-              id: usuarioRetornado.perfil ? usuarioRetornado.perfil.id: "",
+              PerfilId: usuarioRetornado.perfil ? usuarioRetornado.perfil.id: "",
             },
             token,
           });
