@@ -11,6 +11,8 @@ import { Perfil } from "../../models/Perfil";
 import { Handlers } from "./../../helpers/handlers";
 import { Pessoa } from "./../../models/Pessoa";
 import { Usuario } from "./../../models/Usuario";
+import { Juiz } from "./../../models/Juiz";
+
 
 const handlers = new Handlers();
 const helperAuth = new HelperAuth();
@@ -35,9 +37,12 @@ export class AutenticarController {
         include: [{
             attributes: ["id","nome"],
             model: Perfil,
-          },
-          {
+          },{
             attributes: ["id", "nome"],
+            include: [{
+              attributes: ["id"],
+              model: Juiz,
+            }],
             model: Pessoa,
           }],
         where: {
@@ -49,16 +54,14 @@ export class AutenticarController {
       .then((usuarioRetornado: Usuario) => {
         if (bcrypt.compare(senha, usuarioRetornado.senha)) {
           const token = helperAuth.generateToken(usuarioRetornado);
-          console.log("token")
-          console.log(token);
-          console.log("usuario");
-          console.log(usuarioRetornado);
+          let juiz = {};
           response.json({
             data: {
               UsuarioId: usuarioRetornado.id,
               nome: usuarioRetornado.pessoa.nome,
               perfil: usuarioRetornado.perfil ? usuarioRetornado.perfil.nome : "",
               PerfilId: usuarioRetornado.perfil ? usuarioRetornado.perfil.id: "",
+              JuizId: usuarioRetornado.pessoa.juiz ? usuarioRetornado.pessoa.juiz.id : "",
             },
             token,
           });
