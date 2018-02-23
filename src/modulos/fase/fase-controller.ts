@@ -21,6 +21,8 @@ import { Atleta } from "../../models/Atleta";
 import { Pessoa } from "../../models/Pessoa";
 import { Onda } from "../../models/Onda";
 import { OndaNota } from "../../models/OndaNota";
+import { ConfiguracaoFase } from "../../models/ConfiguracaoFase";
+
 
 export class FaseController {
   // tslint:disable-next-line:no-empty
@@ -31,6 +33,13 @@ export class FaseController {
     });
     response.json(fases);
   }
+
+  public async getConfiguracao(request: ICustomRequest, response: Response, nextFunction: NextFunction) {
+    const configuracoes: any[] = await ConfiguracaoFase.findAll({
+    });
+    response.json(configuracoes);
+  }
+  
 
   public getOne(request: Request, response: Response, next: NextFunction): void {
     const _id = request.params._id;

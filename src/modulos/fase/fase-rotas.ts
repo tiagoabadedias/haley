@@ -24,6 +24,7 @@ class FaseRotas {
 
   private initRoutes() {
     this.router.get("/", this.faseController.getAll);
+    this.router.get("/configuracao", this.faseController.getConfiguracao);
     this.router.get("/:_id", this.faseController.getOne);
     this.router.post("/", this.faseController.create);
     this.router.delete("/:_id", this.faseController.delete);
