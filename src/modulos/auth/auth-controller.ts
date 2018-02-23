@@ -57,6 +57,7 @@ export class AutenticarController {
             data: {
               nome: usuarioRetornado.pessoa.nome,
               perfil: usuarioRetornado.perfil ? usuarioRetornado.perfil.nome : "",
+              id: usuarioRetornado.perfil ? usuarioRetornado.perfil.id: "",
             },
             token,
           });
