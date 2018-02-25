@@ -24,6 +24,7 @@ class OndaNotaRotas {
 
   private initRoutes() {
     this.router.get("/", this.ondaNotaController.getAll);
+    this.router.post("/nota", this.ondaNotaController.enviarNota);
     this.router.get("/:_id", this.ondaNotaController.getOne);
     this.router.post("/", this.ondaNotaController.create);
     this.router.delete("/:_id", this.ondaNotaController.delete);

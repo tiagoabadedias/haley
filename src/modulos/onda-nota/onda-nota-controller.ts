@@ -9,6 +9,7 @@ import { IEtapa } from "../etapa/etapa-interface";
 import { HistoricoController } from "../historico/historico-controller";
 import { ICustomRequest } from "./../../interfaces/custom-request";
 import { OndaNota } from "../../models/OndaNota";
+import { Onda } from "../../models/Onda";
 
 export class OndaNotaController {
   // tslint:disable-next-line:no-empty
@@ -64,6 +65,59 @@ export class OndaNotaController {
         const ondaNotaDeletada = await ondaNota.destroy();
 
         response.json(ondaNotaDeletada);
+      }catch (err) {
+        t.rollback();
+        next(err);
+      }
+    });
+  }
+
+  public async enviarNota(request: Request, response: Response, next: NextFunction) {
+    console.log("asdad -- - ");
+    sequelize.transaction(async (t: Transaction) => {
+      const nota: any = request.body;
+      try {
+
+        const onda: Onda = await Onda.findOne({
+          where: { BateriaAtletaId: request.body.nota.BateriaAtletaId },
+        }) as Onda;
+
+        if ((onda.numero == request.body.nota.ondaNumero)) {
+          
+          // let existeNota = false;
+
+          // onda.ondaNota.forEach(nota => {
+          //   if (nota.JuizId == "") {
+          //     ondaNota = 
+          //     existeNota = true;
+          //   } 
+
+          // });
+          
+          const ondaNota: OndaNota = await OndaNota.findOne({
+            where: { id: nota.onda.id },
+          }) as OndaNota;
+
+        } else {
+
+          const onda = Onda.build<Onda>({
+            id: Uuid(),
+            BateriaAtletaId: request.body.nota.BateriaAtletaId,
+            numero: request.body.nota.ondaNumero,
+            caminhoVideo: "",
+            video: "",
+          });
+
+         
+          const ondaCriada = await onda.save({ transaction: t });
+
+
+        }
+        
+        response.json(onda);  
+        // const ondaNotaDeletada = await ondaNota.destroy();
+
+        // response.json(ondaNotaDeletada);
       }catch (err) {
         t.rollback();
         next(err);

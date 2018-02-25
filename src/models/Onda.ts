@@ -50,6 +50,6 @@ export class Onda extends Model<Onda> {
   public bateriaAtleta: BateriaAtleta;
 
   @HasMany(() => OndaNota)
-  public ondaNota: OndaNota;
+  public ondaNota: OndaNota[];
 
 }
