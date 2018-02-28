@@ -47,14 +47,15 @@ export class AutenticarController {
           }],
         where: {
           ativo: true,
-          usuario,
+          usuario
         },
       })
       .then(handlers.isNotFound)
       .then((usuarioRetornado: Usuario) => {
-        if (bcrypt.compare(senha, usuarioRetornado.senha)) {
+        if (bcrypt.compareSync(senha, usuarioRetornado.senha)) {
           const token = helperAuth.generateToken(usuarioRetornado);
           let juiz = {};
+          console.log("usuario");
           response.json({
             data: {
               UsuarioId: usuarioRetornado.id,
