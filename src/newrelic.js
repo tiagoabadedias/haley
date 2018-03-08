@@ -9,7 +9,7 @@ exports.config = {
   /**
    * Array of application names.
    */
-  app_name: ['SURF Api'],
+  app_name: ['Cloud Api'],
   /**
    * Your New Relic license key.
    */

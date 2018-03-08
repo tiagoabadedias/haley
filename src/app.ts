@@ -39,11 +39,7 @@ class App {
       cors({
       allowedHeaders: ["Content-type","x-access-token","Origin", "X-Requested-With", "Content-Type", "Accept"],
       methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
-      origin: ["*",
-      "http://localhost:4200",
-      "http://localhost:8100",
-      "http://172.29.6.36:3000",
-      "https://surftron-front.herokuapp.com"],
+      origin: ["*"],
       }),
     );
 

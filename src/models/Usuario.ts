@@ -16,7 +16,6 @@ import {
 
 import { Perfil } from "./Perfil";
 import { Pessoa } from "./Pessoa";
-import { EtapaFuncao } from "./EtapaFuncao";
 
 @Table({
   timestamps: true,
@@ -58,9 +57,6 @@ export class Usuario extends Model<Usuario> {
 
   @BelongsTo(() => Perfil)
   public perfil: Perfil;
-
-  @HasMany(() => EtapaFuncao)
-  public etapaFuncao: EtapaFuncao;
 
   //#endregion
 }

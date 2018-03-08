@@ -3,15 +3,12 @@ import { Transaction } from "sequelize";
 import * as Uuid from "uuid";
 import { Handlers } from "../../helpers/handlers";
 import { ICustomRequest } from "../../interfaces/custom-request";
-import { Modulo } from "../../models/Modulo";
 import { Perfil } from "../../models/Perfil";
 import { Pessoa } from "../../models/Pessoa";
 import { sequelize } from "../../sequelize";
-import { HistoricoController } from "../historico/historico-controller";
 import { PerfilClone } from "./perfil-clone";
 
 const handlers = new Handlers();
-const historicoController = new HistoricoController();
 
 export class PerfilController {
   // tslint:disable-next-line:no-empty
@@ -22,8 +19,6 @@ export class PerfilController {
       response.json(perfis);
     });
   }
-
-  
 
   public update(request: ICustomRequest, response: Response, next: NextFunction): void {
       sequelize.transaction (async (t: Transaction) => {
@@ -49,9 +44,6 @@ export class PerfilController {
 
         // Criando Clone para histórico depois
         const perfilDepois = new PerfilClone(perfilParaAtualizar);
-
-        // Gerando Histórico
-        historicoController.gerarHistorico(perfilAntes, perfilDepois, "perfil", _id, request.decoded.usuario);
 
         response.json(perfilParaAtualizar);
       } catch (err) {

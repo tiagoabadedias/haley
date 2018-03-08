@@ -16,15 +16,13 @@ import { Pessoa } from "./Pessoa";
 @Table({
   timestamps: true,
 })
-export class Juiz extends Model<Juiz> {
+export class Cloud extends Model<Cloud> {
 
   @PrimaryKey
   @Column
   public id: string;
 
   @AllowNull(false)
-  @Column(DataType.STRING) public tipoJuiz: string;
-
   @ForeignKey(() => Pessoa)
   @Column
   public PessoaId: string;
