@@ -16,7 +16,7 @@ let mensagens: any[] = [];
 server.listen(port);
 server.on("listening", onListening);
 
-cron.schedule("1 * * * * *", () => {  
+cron.schedule("1 * * * * *", () => {
   // console.log("enviar email");
   // email.enviaEmail();
   console.log("pega commits");
