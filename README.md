@@ -1,4 +1,4 @@
-# SURF BACKEND
+# Haley BACKEND
 
 ## Tecnologias utilizadas
 - Node JS
