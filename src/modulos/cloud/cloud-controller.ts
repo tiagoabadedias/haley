@@ -13,7 +13,7 @@ export class CloudController {
 
   constructor() {}
 
-  public async get(request: Request, response: Response, next: NextFunction): void {
+  public async get(request: Request, response: Response, next: NextFunction) {
     const _parametro = request.params._parametro;
 
     let enviaEmail: any;
