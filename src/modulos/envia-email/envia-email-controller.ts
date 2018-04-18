@@ -11,7 +11,7 @@ export class EnviaEmailController {
 
   constructor() {}
 
-  public enviaEmail() {
+  public enviaEmail(para: any, mensagem: any) {
     let transporter = nodemailer.createTransport({
       host: 'email-ssl.com.br',
       port: "465",
@@ -24,9 +24,9 @@ export class EnviaEmailController {
 
     let mailOptions = {
         from: '"Atividades Executadas 👻" <tiago@infoworld.com.br>',
-        to: 'tiago@infoworld.com.br',
+        to: para,
         subject: 'Atividades ✔',
-        html: '<b>Hello world?</b>'
+        html: mensagem
     };
 
     transporter.sendMail(mailOptions, (error: any, info: any) => {
