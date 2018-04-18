@@ -32,7 +32,7 @@ export class EnviaEmailController {
         from: '"Atividades Executadas 👻" <tiago@infoworld.com.br>',
         to: para,
         subject: 'Atividades ✔',
-        html: mensagem
+        html: mensagemAjustada
     };
 
     transporter.sendMail(mailOptions, (error: any, info: any) => {
