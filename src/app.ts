@@ -36,7 +36,10 @@ class App {
       cors({
       allowedHeaders: ["Content-type","x-access-token","Origin", "X-Requested-With", "Content-Type", "Accept"],
       methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
-      origin: ["*"],
+      origin: ["*",
+      "http://localhost:8100",
+      "http://172.29.6.36:3000",
+      "https://haley-cloud.herokuapp.com"],
       }),
     );
 
