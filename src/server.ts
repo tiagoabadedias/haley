@@ -4,7 +4,7 @@ import { EnviaEmailController } from "./modulos/envia-email/envia-email-controll
 import { GitHubController } from "./modulos/github/github-controller";
 
 const cron = require("node-cron");
-const port = normalizePort(process.env.PORT || 3001);
+const port = normalizePort(process.env.PORT || 3000);
 const server = http.createServer(app);
 
 const email = new EnviaEmailController();
