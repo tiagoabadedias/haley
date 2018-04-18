@@ -30,7 +30,7 @@ export class CloudController {
       
       const para = enviaEmail.get({plain: true}).para;
       const mensagem = _parametro;
-      email.enviaEmail(para+"@infoworld.com.br", mensagem);
+      email.enviaEmail(para, mensagem);
 
       EnviaEmail.destroy({where: {id: enviaEmail.id}}).then((deletado) => {
         console.log(deletado);

@@ -22,16 +22,16 @@ export class EnviaEmailController {
       }
     });
 
-    const mensagemAjustada ='Olá '+ para +',<br><br>'+
+    const mensagemAjustada ='Olá '+ para +',<br><br><br>'+
                             mensagem +
-                            '<br><br> Abraço'+
-                            '<br><br><br><br>'+
-                            '<h3> e-mail enviado pelo assitente Haley </h3>';
+                            '<br><br><br>Abraço'+
+                            '<br><br><br>'+
+                            '<h5>enviado pelo assitente Haley 👻 </h5>';
 
     let mailOptions = {
-        from: '"Atividades Executadas 👻" <tiago@infoworld.com.br>',
-        to: para,
-        subject: 'Atividades ✔',
+        from: '"Atividades ✔ - Tiago " <tiago@infoworld.com.br>',
+        to: para+"@infoworld.com.br",
+        subject: 'Tarefas executadas - Tiago ',
         html: mensagemAjustada
     };
 
