@@ -25,7 +25,7 @@ export class EnviaEmailController {
     const mensagemAjustada ='Olá '+ para +',<br><br><br>'+
                             mensagem +
                             '<br><br><br>Abraço'+
-                            '<br><br><br>'+
+                            '<br><br>'+
                             '<h5>enviado pelo assitente Haley 👻 </h5>';
 
     let mailOptions = {
