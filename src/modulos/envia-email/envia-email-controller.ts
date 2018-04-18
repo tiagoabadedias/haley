@@ -22,6 +22,12 @@ export class EnviaEmailController {
       }
     });
 
+    const mensagemAjustada ='Olá '+ para +',<br><br>'+
+                            mensagem +
+                            '<br><br> Abraço'+
+                            '<br><br><br><br>'+
+                            '<h3> e-mail enviado pelo assitente Haley </h3>';
+
     let mailOptions = {
         from: '"Atividades Executadas 👻" <tiago@infoworld.com.br>',
         to: para,
