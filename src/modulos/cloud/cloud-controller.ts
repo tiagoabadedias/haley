@@ -32,6 +32,10 @@ export class CloudController {
       const mensagem = _parametro;
       email.enviaEmail(para+"@infoworld.com.br", mensagem);
 
+      EnviaEmail.destroy({}).then((deletado) => {
+        console.log(deletado);
+      });
+
 
     } else {
 
