@@ -16,6 +16,8 @@ class CloudRotas {
   private initRoutes() {
     this.router.get("/:_parametro", this.cloudController.get);
     this.router.get("/zendesk/:_parametro", this.cloudController.getZendesk);
+    this.router.get("/zendesk-links", this.cloudController.getZendeskLinks);
+    
   }
 }
 

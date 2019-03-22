@@ -44,6 +44,18 @@ export class CloudController {
 
   }
 
+  public async getZendeskLinks(request: Request, response: Response, next: NextFunction) {
+      response.json({ links:[
+        {name:"Problemas com produtos", link:"https://www.google.com/search?q=problemas+com+produtos&oq=problemas+com+produtos"},
+        {name:"Problemas com entrega", link:"https://www.google.com/search?q=problemas+com+entrega&oq=problemas+com+entrega"},
+        {name:"Reportar problemas link", link:"https://www.google.com/search?q=problemas+com+uso&oq=problemas+com+uso"},
+        {name:"Qualidade de produto", link:"https://www.google.com/search?q=problemas+com+uso&oq=problemas+com+uso"},
+        {name:"Termos de uso", link:"https://www.google.com/search?q=problemas+com+uso&oq=problemas+com+uso"},
+        {name:"Como funciona devolução", link:"https://www.google.com/search?q=problemas+com+uso&oq=problemas+com+uso"}
+      ]});
+
+  }
+
   public async get(request: Request, response: Response, next: NextFunction) {
     const _parametro = request.params._parametro;
 
