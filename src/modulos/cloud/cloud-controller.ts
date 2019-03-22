@@ -38,7 +38,7 @@ export class CloudController {
       response.json({ suggestions:[
         "ligue para o 190",
         "é emergencia! chame alguém para ajudar",
-        "isso realmente é muito grave? chame ajuda"
+        "isso realmente é muito grave!"
       ] });
     }
 
